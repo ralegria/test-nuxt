@@ -1,6 +1,32 @@
-# Nuxt Minimal Starter
+# Dragon Ball Explorer
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A Nuxt 3 application for exploring Dragon Ball characters and registering planets.
+
+## Features
+
+- **Character List Page**: Browse Dragon Ball characters with pagination, grid and list views
+- **Character Detail Page**: View detailed information about a specific character
+- **Planet Registration**: Register new planets with name, description, and image URL
+
+## Technologies Used
+
+- **Nuxt 3**: Vue.js framework for building the application
+- **Vue 3 Composition API**: For reactive state management
+- **Local Storage**: For storing registered planets
+- **Responsive Design**: Mobile-friendly UI that works on all devices
+
+## Pages
+
+1. **Home Page (`/`)**: Lists Dragon Ball characters with pagination
+2. **Character Detail Page (`/characters/[id]`)**: Shows details for a specific character
+3. **Planet Registration Page (`/planets/register`)**: Form to register new planets
+
+## API Integration
+
+The application integrates with the Dragon Ball API:
+
+- Character list: `dragonball-api.com/api/characters?page=2&limit=5`
+- Character details: `https://dragonball-api.com/api/characters/1`
 
 ## Setup
 
